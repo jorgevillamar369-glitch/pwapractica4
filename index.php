@@ -146,6 +146,40 @@ require __DIR__ . '/includes/header.php';
       </ol>
     </div>
   </section>
+
+  <!-- Equipo -->
+  <section class="equipo" id="equipo">
+    <div class="contenedor">
+      <div class="equipo__cabeza">
+        <p class="rotulo">Grupo 04</p>
+        <h2 class="titulo-seccion">Quiénes armamos esta tienda</h2>
+      </div>
+
+      <ol class="equipo__lista">
+        <li class="equipo__persona">
+          <span class="equipo__numero">01</span>
+          <span class="equipo__nombre">Bruce Balarezo Chacón</span>
+        </li>
+        <li class="equipo__persona">
+          <span class="equipo__numero">02</span>
+          <span class="equipo__nombre">Norka Malena Mideros</span>
+        </li>
+        <li class="equipo__persona">
+          <span class="equipo__numero">03</span>
+          <span class="equipo__nombre">Jorge Villamar Sánchez</span>
+        </li>
+        <li class="equipo__persona">
+          <span class="equipo__numero">04</span>
+          <span class="equipo__nombre">Mauro Chinlle Carrillo</span>
+        </li>
+      </ol>
+
+      <p class="equipo__nota">
+        Universidad Bolivariana del Ecuador · Ingeniería en Sistemas Inteligentes ·
+        Práctica 4 de Programación Web Avanzada
+      </p>
+    </div>
+  </section>
 </main>
 
 <?php require __DIR__ . '/includes/footer.php'; ?>

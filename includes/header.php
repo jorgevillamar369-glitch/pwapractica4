@@ -28,6 +28,7 @@ $titulo = $titulo ?? 'Molino 32 — café de especialidad';
     <nav class="nav" aria-label="Navegación principal">
       <a href="index.php#catalogo">Catálogo</a>
       <a href="index.php#como-comprar">Cómo comprar</a>
+      <a href="index.php#equipo">Equipo</a>
       <a href="seguimiento.php">Seguir pedido</a>
     </nav>
 
