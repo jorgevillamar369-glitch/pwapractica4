@@ -15,6 +15,12 @@ function precio(float $valor): string
     return '$' . number_format($valor, 2, '.', ',');
 }
 
+/** Largo de un texto, con o sin la extensión mbstring. */
+function largo(string $texto): int
+{
+    return function_exists('mb_strlen') ? mb_strlen($texto) : strlen($texto);
+}
+
 /** Código corto y legible para seguir un pedido (ej. M32-7F3A). */
 function codigo_pedido(): string
 {

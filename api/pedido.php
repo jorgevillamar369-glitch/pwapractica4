@@ -29,7 +29,7 @@ $email     = trim((string) ($datos['email'] ?? ''));
 $direccion = trim((string) ($datos['direccion'] ?? ''));
 $items     = $datos['items'] ?? [];
 
-if (mb_strlen($nombre) < 3) {
+if (largo($nombre) < 3) {
     http_response_code(422);
     echo json_encode(['ok' => false, 'mensaje' => 'Escribe tu nombre completo.']);
     exit;
@@ -41,7 +41,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
-if (mb_strlen($direccion) < 6) {
+if (largo($direccion) < 6) {
     http_response_code(422);
     echo json_encode(['ok' => false, 'mensaje' => 'Falta la dirección de entrega.']);
     exit;
