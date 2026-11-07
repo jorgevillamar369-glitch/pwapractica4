@@ -30,7 +30,7 @@
   </div>
 
   <div class="contenedor pie__legal">
-    <span>Práctica 4 — Programación Web Avanzada</span>
+    <span>Práctica 4 — Programación Web Avanzada · Grupo 04</span>
     <span>Fotografías: Pexels</span>
   </div>
 </footer>

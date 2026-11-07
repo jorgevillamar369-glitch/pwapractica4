@@ -518,6 +518,54 @@ p {
   color: rgba(230, 235, 227, 0.72);
 }
 
+/* ---------- Equipo ---------- */
+
+.equipo {
+  padding: 76px 0 84px;
+  border-top: 1px solid var(--linea);
+}
+
+.equipo__cabeza {
+  margin-bottom: 34px;
+}
+
+.equipo__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 28px;
+}
+
+.equipo__persona {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 18px 0;
+  border-top: 1px dashed var(--linea-fuerte);
+}
+
+.equipo__numero {
+  font-family: var(--serif);
+  font-size: 13px;
+  color: var(--verde);
+  font-variant-numeric: tabular-nums;
+}
+
+.equipo__nombre {
+  font-size: 16.5px;
+  line-height: 1.35;
+}
+
+.equipo__nota {
+  margin-top: 30px;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tinta-suave);
+}
+
 /* ---------- Pie ---------- */
 
 .pie {
@@ -1009,6 +1057,10 @@ p {
   .pie__fila {
     grid-template-columns: 1fr 1fr;
   }
+
+  .equipo__lista {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 620px) {
@@ -1055,6 +1107,10 @@ p {
   .pie__fila {
     grid-template-columns: 1fr;
     gap: 28px;
+  }
+
+  .equipo__lista {
+    grid-template-columns: 1fr;
   }
 
   .como {
