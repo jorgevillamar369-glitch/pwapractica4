@@ -3,6 +3,9 @@
 Tienda de café de especialidad, equipo de preparación y cerámica.
 Práctica 4 de Programación Web Avanzada: HTML, CSS, JavaScript, PHP y MySQL.
 
+- Sitio en línea: https://grupo04.infinityfreeapp.com
+- Repositorio: https://github.com/jorgevillamar369-glitch/pwapractica4
+
 ## Qué incluye
 
 - `index.php` — portada, catálogo con filtros, sección de cómo comprar.
