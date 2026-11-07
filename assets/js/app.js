@@ -218,7 +218,11 @@ document.addEventListener('click', (evento) => {
     abrirCarrito();
     return;
   }
-
+  if (evento.target.closest('[data-vaciar-carrito]')) {
+  items = [];
+  pintarCarrito();
+  return;
+  }
   if (evento.target.closest('[data-cerrar-carrito]') || evento.target === velo) {
     cerrarCarrito();
     return;
