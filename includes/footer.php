@@ -48,11 +48,13 @@
     <ul class="carrito__lista" data-lista-carrito></ul>
     <p class="carrito__vacio" data-carrito-vacio>El carrito está vacío. Agrega algo del catálogo.</p>
   </div>
-
+  
   <div class="carrito__pie">
+    <button class="carrito__vaciar" type="button" data-vaciar-carrito>Vaciar carrito</button>
     <div class="carrito__total">
       <span>Total</span>
       <strong data-total-carrito>$0.00</strong>
+    
     </div>
 
     <form class="form-compra" data-form-compra novalidate>

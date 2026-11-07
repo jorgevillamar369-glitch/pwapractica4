@@ -19,8 +19,13 @@ try {
 
 $categorias = [];
 foreach ($productos as $producto) {
-    $categorias[$producto['categoria']] = nombre_categoria($producto['categoria']);
-}
+    $clave = $producto['categoria'];
+    if(!isset($categorias[$clave])){
+      $categorias[$clave] = ['nombre' => nombre_categoria($clave), 'total' => 0];
+    }
+    $categorias[$clave]["total"]++;
+} 
+
 
 $titulo = 'Molino 32 — café de especialidad y equipo de preparación';
 require __DIR__ . '/includes/header.php';
@@ -62,7 +67,7 @@ require __DIR__ . '/includes/header.php';
         <div class="filtros" role="group" aria-label="Filtrar por categoría">
           <button class="filtro is-activo" type="button" data-filtro="todos">Todo</button>
           <?php foreach ($categorias as $clave => $etiqueta): ?>
-            <button class="filtro" type="button" data-filtro="<?= e($clave) ?>"><?= e($etiqueta) ?></button>
+            <button class="filtro" type="button" data-filtro="<?= e($clave) ?>"><?= e($etiqueta['nombre']) ?><span><?=(int)$etiqueta['total'] ?> </span></button>
           <?php endforeach; ?>
         </div>
       </div>

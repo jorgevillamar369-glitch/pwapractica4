@@ -1089,7 +1089,27 @@ p {
     flex-direction: column;
   }
 }
+.tarjeta[hidden] {
+  display: none;
+}
+.carrito__vaciar {
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--linea-fuerte);
+  padding: 0 0 2px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  color: var(--tinta-suave);
+}
 
+.carrito__vaciar:hover {
+  color: var(--tinta);
+  border-color: var(--verde);
+}
 @media (max-width: 420px) {
   .grilla {
     grid-template-columns: 1fr;
