@@ -171,7 +171,7 @@ async function confirmarPedido(evento) {
     formCompra.reset();
 
     avisoCompra.className = 'form-compra__aviso is-ok';
-    avisoCompra.innerHTML = `Pedido <strong>${resultado.codigo}</strong> guardado por ${resultado.total}.
+    avisoCompra.innerHTML = `Pedido <strong>${resultado.codigo}</strong> confirmado. Total: ${resultado.total}.
       <a href="seguimiento.php?codigo=${resultado.codigo}">Seguir el pedido</a>.`;
   } catch (error) {
     avisoCompra.className = 'form-compra__aviso is-error';

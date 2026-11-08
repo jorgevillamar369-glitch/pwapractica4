@@ -8,7 +8,7 @@ $titulo = $titulo ?? 'Molino 32 — café de especialidad';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?= e($titulo) ?></title>
-  <meta name="description" content="Café de especialidad, equipo de goteo y cerámica de tres talleres ecuatorianos. Compra directo al vendedor.">
+  <meta name="description" content="Café de especialidad, equipo de preparación y cerámica de tres talleres ecuatorianos. Compra directamente a los talleres.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">

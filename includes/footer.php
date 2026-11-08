@@ -6,7 +6,7 @@
       <p class="pie__marca">Molino 32</p>
       <p class="pie__texto">
         Tienda de café de especialidad y equipo de preparación.
-        Trabajamos con tres talleres ecuatorianos; cada pedido se arma en su taller.
+        Trabajamos con tres talleres ecuatorianos; cada producto sale del taller que lo hace.
       </p>
     </div>
 
