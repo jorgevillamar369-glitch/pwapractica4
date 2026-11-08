@@ -37,10 +37,10 @@ require __DIR__ . '/includes/header.php';
     <div class="contenedor portada__fila">
       <div class="portada__texto">
         <p class="rotulo">Tres talleres · una sola despensa</p>
-        <h1 class="portada__titulo">Café tostado la semana pasada, equipo para prepararlo bien.</h1>
+        <h1 class="portada__titulo">Café tostado esta semana, equipo para prepararlo bien.</h1>
         <p class="portada__entrada">
-          Compramos directo a Tostaduría Altura, Casa del Grano y Taller de Gres.
-          Cada bolsa lleva la fecha de tueste y el nombre de quien la preparó.
+          Compramos directamente a Tostaduría Altura, Casa del Grano y Taller de Gres.
+          Cada bolsa lleva la fecha de tueste y el nombre de quien la tostó.
         </p>
         <div class="portada__acciones">
           <a class="boton boton--lleno" href="#catalogo">Ver catálogo</a>
@@ -120,10 +120,10 @@ require __DIR__ . '/includes/header.php';
     <div class="contenedor como__fila">
       <div class="como__intro">
         <p class="rotulo">Cómo comprar</p>
-        <h2 class="titulo-seccion">Eliges, dejas tus datos y el taller despacha.</h2>
+        <h2 class="titulo-seccion">Eliges, dejas tus datos y cada taller despacha lo suyo.</h2>
         <p class="como__texto">
-          No pedimos tarjeta. Confirmas el pedido, recibes un código y el vendedor
-          te escribe para acordar el pago y la entrega en 24 horas.
+          No pedimos tarjeta. Confirmas el pedido, recibes un código y te escribimos
+          en menos de 24 horas para acordar el pago y la entrega.
         </p>
       </div>
 
@@ -136,7 +136,7 @@ require __DIR__ . '/includes/header.php';
         <li class="paso">
           <span class="paso__numero">02</span>
           <h3>Deja nombre, correo y dirección</h3>
-          <p>Usamos esos datos solo para coordinar la entrega con el taller.</p>
+          <p>Usamos esos datos solo para coordinar la entrega con el taller de cada producto.</p>
         </li>
         <li class="paso">
           <span class="paso__numero">03</span>
