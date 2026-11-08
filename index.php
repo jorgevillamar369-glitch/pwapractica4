@@ -172,6 +172,10 @@ require __DIR__ . '/includes/header.php';
           <span class="equipo__numero">04</span>
           <span class="equipo__nombre">Mauro Chinlle Carrillo</span>
         </li>
+        <li class="equipo__persona">
+          <span class="equipo__numero">05</span>
+          <span class="equipo__nombre">Liseth Criollo</span>
+        </li>
       </ol>
 
       <p class="equipo__nota">

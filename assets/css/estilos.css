@@ -1,4 +1,4 @@
-/* ============================================================
+﻿/* ============================================================
    Molino 32 — hoja de estilos
    Paleta: verde profundo (fondo #eef1ea, tinta #1c2a21, acento #2f6b4f)
    Tipografía: Fraunces (títulos) + Karla (texto)
@@ -534,8 +534,8 @@ p {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0 28px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0 18px;
 }
 
 .equipo__persona {
@@ -554,7 +554,7 @@ p {
 }
 
 .equipo__nombre {
-  font-size: 16.5px;
+  font-size: 15px;
   line-height: 1.35;
 }
 
@@ -1171,3 +1171,4 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
