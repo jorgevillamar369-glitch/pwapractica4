@@ -7,8 +7,6 @@ Tienda de café de especialidad hecha con HTML, CSS, JavaScript, PHP y MySQL par
 
 ## Tecnologías
 
-PHP 8, MySQL, HTML, CSS y JavaScript. La base de datos está en `sql/pwapractica4.sql`.
-
-Para probarlo en local, importa ese SQL y configura la conexión en `config/db.php`.
+PHP 8, MySQL, HTML, CSS y JavaScript. La base de datos está en `sql/pwapractica4.sql` y la conexión se configura en `config/db.php`.
 
 Grupo 04 · Programación Web Avanzada
